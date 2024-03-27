@@ -13,5 +13,3 @@ RUN /bin/bash -c ". /home/gitpod/.sdkman/bin/sdkman-init.sh \
  && sdk flush archives \
  && sdk flush temp"
 
-# Copie o arquivo application.properties para o diretório resources
-COPY application.properties /workspace/seu_projeto/src/main/resources/
